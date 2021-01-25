@@ -47,7 +47,7 @@ nav {
 }
 label {
     justify-content: flex-end;
-    font-family: 'cynic';
+    font-family: 'cynic', Arial, sans-serif;
 }
 .navlink a {
     text-decoration: none;
