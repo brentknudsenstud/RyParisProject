@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'cynic';
+    src: url('Fonts/cynic.ttf');
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #F1A438;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.rplogo {
+    margin: 5px 30px;
+    display: flex;
+    flex: flex-grow;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlink {
+    display: flex;
+    
+    justify-content: flex-end;
+    margin: 20px;
+}
+label {
+    justify-content: flex-end;
+    font-family: 'cynic';
+}
+.navlink a {
+    text-decoration: none;
+    color: #2e2e2e;
+
+}
