@@ -76,7 +76,14 @@ label {
 
 .main-content {
     margin: 0 auto;
-    width: 85%;
+    width: 80%;
+}
+
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+p {
+    font-family: 'cynic', Arial;
 }
 
 footer {
@@ -86,6 +93,7 @@ footer {
     justify-content: flex-end;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 27px 27px 20px 27px;
 }
 
 .bottom-nav {
@@ -94,7 +102,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 60px;
+
 }
 
 .bottom-navlink {
@@ -102,6 +110,7 @@ footer {
     justify-content: flex-end;
     margin: 5px;
 }
+
 footer a {
     text-decoration: none;
     color: #2e2e2e;
@@ -109,15 +118,16 @@ footer a {
 
 .bottom-navlink label {
     justify-content: flex-end;
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .copyright-line {
-    margin: 5px 10px 5px 20px;
+    margin: 5px 30px 5px 30px;
     display: flex;
     flex-grow: 1;
     justify-content: flex-start;
     color: #2e2e2e;
     padding: 10px;
+    min-width: 100px;
 }
