@@ -1,0 +1,16 @@
+$basicfontcolor: #2e2e2e;
+
+body {
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    a{
+        color: $basicfontcolor;
+    }
+}
