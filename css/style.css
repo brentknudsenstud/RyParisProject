@@ -95,9 +95,7 @@ label {
 h2 {
     font-family: 'Libre Franklin', sans-serif;
 }
-p {
-    font-family: 'cynic', Arial;
-}
+
 
 .breakfast-lunch-dinner {
     display: flex;
@@ -109,28 +107,35 @@ p {
 #breakpic {
     background-image: url(../images/breakfast-ideas.jpg);
     background-size: cover;
+    background-position: center;
     width: 300px;
-    height: 200px;
+    height: 300px;
     margin: 20px 20px 0 20px;
 }
 
 #lunchpic {
     background-image: url(../images/vegetarian-ideas.jpg);
     background-size: cover;
+    background-position: center;
     width: 300px;
-    height: 200px;
+    height: 300px;
     margin: 20px 20px 0 20px;
 }
 
 #dinnerpic {
-    background-image: url(../images/)
+    background-image: url(../images/cold-weather-dinners.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 0 20px;
+    
 }
 
 .pic p {
     text-align: center;
     background-color: white;
     padding: 10px;
-    width: 100%;
 
 }
 
