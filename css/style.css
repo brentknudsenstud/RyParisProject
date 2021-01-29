@@ -18,7 +18,6 @@ html, body {
     margin: 0 auto;
     min-width: 600px;
     max-width: 100%;
-    display: flex;
     flex-flow: column wrap;
 }
 
@@ -85,11 +84,19 @@ label {
     min-width: 200px;
 }
 
-
+.largefontpara {
+    font-size: 1.25em;
+}
 
 .main-content {
     margin: 0 auto;
     width: 80%;
+}
+
+.healthyRecipes {
+    margin: 0 auto;
+    background-color: #dadfea;
+    padding: 30px;
 }
 
 h2 {
@@ -101,7 +108,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #breakpic {
@@ -135,9 +142,71 @@ h2 {
 .pic p {
     text-align: center;
     background-color: white;
-    padding: 10px;
 
 }
+
+.recipe-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#pepperspic {
+    background-image: url(../images/fajita-peppers.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+}
+
+#muffinspic {
+    background-image: url(../images/muffins.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+}
+
+#eggplantpic {
+    background-image: url(../images/eggplant-parmesan.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+}
+
+#teriyakipic {
+    background-image: url(../images/teriyaki-chicken.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+}
+
+.whereeatsection {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.wheretoeat {
+    width: 80%;
+}
+
+.where-to-eatpics {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 
 footer {
     background-color:#F1A438;
@@ -183,4 +252,18 @@ footer a {
     color: #2e2e2e;
     padding: 10px;
     min-width: 100px;
+}
+
+/* Additional CSS for Popular Recipes page */
+
+.hamburgerweek {
+    background-image: url("../images/bengal-burgerwfries.png");
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
 }
