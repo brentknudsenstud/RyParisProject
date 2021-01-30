@@ -215,6 +215,13 @@ h1, h2 {
     justify-content: space-between;
 }
 
+#video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+}
+
 
 footer {
     background-color:#F1A438;
