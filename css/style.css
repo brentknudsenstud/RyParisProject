@@ -97,6 +97,7 @@ label {
     margin: 0 auto;
     background-color: #dadfea;
     padding: 30px;
+
 }
 
 h1, h2 {
@@ -139,18 +140,27 @@ h1, h2 {
     
 }
 
-.pic p {
-    text-align: center;
-    background-color: white;
-
-}
-
 .recipe-photos {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
 }
+.pic {
+    text-align: center;
+    margin: 0;
+    
+}
+
+.pic p {
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    padding: 5px;
+
+}
+
+
 
 #pepperspic {
     background-image: url(../images/fajita-peppers.jpeg);
@@ -158,7 +168,6 @@ h1, h2 {
     background-position: center;
     width: 200px;
     height: 200px;
-    margin: 10px 10px 0 10px;
 }
 
 #muffinspic {
@@ -167,7 +176,6 @@ h1, h2 {
     background-position: center;
     width: 200px;
     height: 200px;
-    margin: 10px 10px 0 10px;
 }
 
 #eggplantpic {
@@ -176,7 +184,6 @@ h1, h2 {
     background-position: center;
     width: 200px;
     height: 200px;
-    margin: 10px 10px 0 10px;
 }
 
 #teriyakipic {
@@ -185,7 +192,7 @@ h1, h2 {
     background-position: center;
     width: 200px;
     height: 200px;
-    margin: 10px 10px 0 10px;
+    
 }
 
 .whereeatsection {
@@ -197,6 +204,7 @@ h1, h2 {
 
 .wheretoeat {
     width: 80%;
+    background-color: white;
 }
 
 .where-to-eatpics {
@@ -333,19 +341,29 @@ button {
 }
 
 .column1 {
-    flex-basis: 50%;
+    flex-basis: 45%;
 }
 
 .column2 {
-    flex-basis: 50%;
+    flex-basis: 55%;
 }
-ol, li {
-    margin: 8px;
+
+ul, ol, li {
+    margin: 0 0 0 8px;
     padding: 0;
-    font-size: .9em
+    font-size: .9em;
+
+
 }
+
 .spicetitle {
-    font-size: 1em;
+    font-size: .9em;
     font-weight: bold;
-    margin: 9px;
+    margin-left: 16px;
+}
+
+.timing {
+    font-size: .9em;
+    font-weight: bold;
+    margin: 16px;
 }
