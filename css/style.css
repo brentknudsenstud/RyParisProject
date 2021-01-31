@@ -227,7 +227,6 @@ h1, h2 {
 
 .stars {
     color: #a63324;
-    box-shadow: -7px 10px 40px -9px rgba(0,0,0,0.33);
     text-shadow: 0 0 .75px #a63324;
     color: transparent;
 }
