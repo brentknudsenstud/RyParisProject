@@ -215,6 +215,9 @@ h1, h2 {
     justify-content: space-between;
 }
 
+.where-to-eatpics .mealpic {
+    border: 5px solid #dadfea;
+}
 #video {
     display: flex;
     flex-direction: row;
@@ -222,6 +225,16 @@ h1, h2 {
     margin: 30px auto;
 }
 
+.stars {
+    color: #a63324;
+    box-shadow: -7px 10px 40px -9px rgba(0,0,0,0.33);
+    text-shadow: 0 0 .75px #a63324;
+    color: transparent;
+}
+
+.twentysix {
+    margin-top: 4px;
+}
 
 footer {
     background-color:#F1A438;
